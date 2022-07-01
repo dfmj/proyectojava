@@ -1,11 +1,21 @@
 
-public class Operaciones {
+public class Proyecto_Uno {
 
 	public static void main(String[] args) {
-		char c='ñ';
-		String s="A";
-		System.out.println(c+s);
+	int years=1000;
+	if(years>0 && years<=12){
+		System.out.println("la persona es un niÃ±o");
+	}else if(years>12&& years<=18) {
+		System.out.println("la persona es un joven");
 		
+	}else  {
+		System.out.println("la persona es un adulto");
+		
+	}
+	System.out.println(years);
+}
+}
+
 		
 				
 	    
